@@ -3,4 +3,4 @@ mono:
   - latest
 solution: IO.Swagger.sln
 script:    # the following commands are just examples, use whatever your build process requires
-  - ./mono_nunit_test.sh
+  - /bin/sh ./mono_nunit_test.sh
