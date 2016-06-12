@@ -1,6 +1,4 @@
 language: csharp
-mono:
-  - latest
 solution: IO.Swagger.sln
 script:    # the following commands are just examples, use whatever your build process requires
   - /bin/sh ./mono_nunit_test.sh
